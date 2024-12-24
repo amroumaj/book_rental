@@ -8,7 +8,7 @@ services:
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: admin123
     ports:
-      - "5432:5432"
+      - "5442:5430"
 
   books-db:
     image: postgres:15
@@ -17,7 +17,7 @@ services:
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: admin123
     ports:
-      - "5433:5432"
+      - "5443:5430"
 
   borrowing-db:
     image: postgres:15
@@ -26,5 +26,5 @@ services:
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: admin123
     ports:
-      - "5434:5432"
+      - "5444:5430"
 
